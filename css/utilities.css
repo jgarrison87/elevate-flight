@@ -97,28 +97,6 @@ html {
   font-weight: bold;
 }
 
-/* modal */
-.modal-bg {
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(100, 100, 100, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: visible;
-  opacity: 1;
-  transition: visibilty 0.2s, opacity 0.5s;
-  z-index: 100;
-}
-
-.modal-active {
-  visibility: visible;
-  opacity: 0;
-}
-
 /* button */
 .btn {
   padding: 10px 20px;

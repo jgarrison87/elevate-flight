@@ -21,8 +21,9 @@
 <!-- Navbar -->
 <div class="navbar">
   <div class="container flex">
-    <h1>ELEVATE</h1>
-    <ul>
+    <h2 class="md">ELEVATE</h2>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+    <ul class="nav-ul" id="nav-ul">
       <li><a href="#testimonials">Who We Are</a></li>
       <li><a href="#aws">How We Can Help</a></li>
       <li><a href="index.html">Testimonials</a></li>
@@ -84,7 +85,7 @@
         <br>
         NOT ANYMORE!  Our simple systems are truly the answer you have been looking for.  There are <u>15 points of failure</u> when it comes to losing weight and getting healthy and our systems address ALL of them (<em>which is why we have a 94% success rate</em>).  You will get products that work, easy to follow diet suggestions, and simple exercise options with every system or product you try (<em>plus we have a 45 day money back guarantee so you really have nothing to lose!</em>). Don’t wait any longer to start to feel, look, and live better.
       </p>
-      <button class="btn btn-outline"><a href="./cards/weight-loss.html">Get Started TODAY!</a></button>
+      <button class="btn btn-outline"><a href="./kits/products.html">Get Started TODAY!</a></button>
     </div>
     <div class="aws-img">
       <img src="./img/home/aws-img2.jpg" alt="">
@@ -214,22 +215,20 @@
 </footer>
 
 <!-- email modal -->
-<section class="email-modal">
-  <div id="modal-bg" class="modal-bg">
-    <div id="modal-container" class="modal-container container flex">
-      <div class="email-form">
-        <h2 class="md">Enjoy a complimentary approved foods list!</h2>
-        <p class="sm">And <em><u>stay</u></em> up to date on future promotions.</p>
+<div class="email-modal-bg" id="email-modal-bg">
+  <div id="email-modal" class="email-modal">
+    <div class="email-form">
+        <h1>A special gift for you</h1>
+        <p>our top “Grocery go-to" list to make healthy shopping easier!</p>
         <form>
           <input type="text" placeholder="Enter Your Email" /><br />
-          <button class="btn submit" type="submit">SIGN UP</button>
+          <button class="submit" type="submit">SIGN UP</button>
         </form>
-        <span class="modal-close">X</span>
-      </div>
+        <span class="email-modal-close">X</span>
     </div>
   </div>
-</section>
-  
+</div>
+
 
 <!-- js -->
 <script src="app.js"></script>
